@@ -1,0 +1,22 @@
+body {
+    background-color: lightgrey;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#postButton {
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 20px;
+    background: #FF5700;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+}

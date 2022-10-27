@@ -1,0 +1,25 @@
+{
+    "name": "creddit",
+    "description": "creddit: Find all the most recent posts about Codesmith on reddit!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {},
+    "permissions": [
+        "storage",
+        "webNavigation",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "./icon.png"
+        }
+    },
+    "icons": {
+        "128": "./icon.png"
+    }
+}
