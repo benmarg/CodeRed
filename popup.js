@@ -47,13 +47,12 @@ let codesmithPosts = [];
 let postNumber = 0
 
 const getPosts = async () => {
-    await fetch('https://www.reddit.com/r/codingbootcamp.json?limit=100').then((data) => data.json()).then((data) => {
+    await fetch('https://www.reddit.com/r/codingbootcamp/new.json?limit=100').then((data) => data.json()).then((data) => {
         for (const post of data.data.children) {
             posts.push(post)
         }
     });
 }
-
 getPosts().then(() => {
     for (const post of posts) {
         let lowercaseSelftext = post.data.selftext.toLowerCase()

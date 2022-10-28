@@ -1,6 +1,6 @@
 {
-    "name": "creddit",
-    "description": "creddit: Find all the most recent posts about Codesmith on reddit!",
+    "name": "CodeRed",
+    "description": "CodeRed: Find all the most recent posts about Codesmith on reddit!",
     "version": "1.0",
     "manifest_version": 3,
     "background": {},
